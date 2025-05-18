@@ -4,17 +4,17 @@ function formatString(input: string, toUpper?: boolean): string {
   }
   return input.toUpperCase();   
 }
-// 1 end
+ 
 
 function filterByRating(items: { title: string; rating: number }[]): { title: string; rating: number }[] {
   return items.filter(item => item.rating >= 4);
 }
-// 2 end
+ 
 function concatenateArrays<T>(...arrays: T[][]): T[] {
   return arrays.flat(); 
 }
 
-// 3 end
+
 
 class Vehicle {
  
@@ -46,8 +46,7 @@ class Car extends Vehicle {
     return `Model: ${this.model}`;
   }
 }
-
-// 4 end
+ 
 function processValue(value: string | number): number {
   if (typeof value === "string") {
     return value.length;
@@ -55,7 +54,7 @@ function processValue(value: string | number): number {
     return value * 2;
   }
 }
-// 5 end
+ 
 
 
 interface Product {
@@ -78,7 +77,7 @@ function getMostExpensiveProduct(products: Product[]): Product | null {
   return highestPrice;
 }
 
-// 6 end
+ 
 enum Day {
   Saturday,
   Sunday,
@@ -99,7 +98,7 @@ function getDayType(day: Day): string {
       return "Weekday";
   }
 }
-//  7 end
+ 
 async function squareAsync(n: number): Promise<number> {
   return new Promise((resolve, reject) => {
     setTimeout(() => {
