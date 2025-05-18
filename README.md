@@ -56,8 +56,10 @@ type ProductKeys = keyof Product;
 - 
 
 
-# 6. How does TypeScript help in improving code quality and project maintainability?
+## 6. How does TypeScript help in improving code quality and project maintainability?
+#### Answer:
 - 
 
 
-# 7. Provide an example of using union and intersection types in TypeScript.
+## 7. Provide an example of using union and intersection types in TypeScript.
+#### Answer:
